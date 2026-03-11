@@ -6,7 +6,6 @@ class Program
     {
         int opcao = 0;
 
-        // O loop continua enquanto a opção for diferente de 5 (Sair)
         while (opcao != 5)
         {
             Console.WriteLine("\n===== MENU =====");
@@ -17,7 +16,6 @@ class Program
             Console.WriteLine("5 - Sair");
             Console.Write("Escolha uma opção: ");
 
-            // Tentativa de ler a opção e validar se é um número
             if (!int.TryParse(Console.ReadLine(), out opcao))
             {
                 Console.WriteLine("Por favor, insira um número válido.");
