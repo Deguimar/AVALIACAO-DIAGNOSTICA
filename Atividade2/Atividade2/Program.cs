@@ -4,9 +4,7 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("--- Impressão de Intervalo ---");
-
-        
+       
         Console.Write("Digite o número inicial: ");
         int inicio = int.Parse(Console.ReadLine());
 
