@@ -11,7 +11,6 @@ class Program
 
         while (opcao != 4)
         {
-            Console.WriteLine("\n===== SISTEMA ESCOLAR =====");
             Console.WriteLine("1 - Cadastrar aluno");
             Console.WriteLine("2 - Listar alunos");
             Console.WriteLine("3 - Mostrar média das notas");
