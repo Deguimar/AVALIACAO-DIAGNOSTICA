@@ -8,7 +8,6 @@ class Program
 
         while (opcao != 5)
         {
-            Console.WriteLine("\n===== MENU =====");
             Console.WriteLine("1 - Somar dois números");
             Console.WriteLine("2 - Subtrair dois números");
             Console.WriteLine("3 - Multiplicar dois números");
@@ -61,7 +60,7 @@ class Program
             }
             else if (opcao == 5)
             {
-                Console.WriteLine("Saindo do programa...");
+                Console.WriteLine("Saindo do programa");
             }
             else
             {
