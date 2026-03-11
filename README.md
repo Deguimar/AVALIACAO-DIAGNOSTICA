@@ -1,44 +1,38 @@
-# ATIVIDADES
+# 🚀 Exercícios de Lógica em C# - Fundamentos
 
-QUESTÃO 01 - Crie um programa com o seguinte menu:
+Este repositório contém uma série de exercícios práticos desenvolvidos em **C#** para consolidar conceitos fundamentais de programação, como estruturas de repetição, condicionais, arrays e matrizes.
 
-===== MENU =====
-1 - Somar dois números
-2 - Subtrair dois números
-3 - Multiplicar dois números
-4 - Dividir dois números
-5 - Sair
-Escolha uma opção:
+## 🛠️ Tecnologias Utilizadas
+* **Linguagem:** C#
+* **Ambiente:** .NET SDK 
+* **Editor:** Visual Studio ou VS Code
 
-O programa deve:
-	Ler a opção escolhida
-	Pedir dois números
-	Executar a operação
-	Mostrar o resultado
+---
 
-Requisitos:
-	Usar switch
-	Usar while para repetir o menu até que o usuário escolha uma opção válida.
-	
-	
-	
-QUESTÃO 02 - Peça ao usuário:
-	número inicial
-	número final
+## 📋 Lista de Exercícios
 
-O programa deve imprimir todos os números no intervalo  e validar se o primeiro número digitado é menor que o segundo.
+### 1. Calculadora com Menu (Questão 01)
+Um programa que simula uma calculadora básica utilizando um menu interativo.
+* **Conceitos:** `switch/case`, `while`, Operações Matemáticas.
+* **Destaque:** O menu repete até que o usuário escolha a opção "Sair".
 
+### 2. Validador de Intervalo (Questão 02)
+O programa recebe um número inicial e um final e imprime a sequência entre eles.
+* **Conceitos:** Estrutura `for`, Validação com `if/else`.
+* **Regra:** O programa só executa se o número inicial for menor que o final.
 
-QUESTÃO 03 - Crie um programa que:
-	Leia 10 números
-	Armazene em um array
-	Mostre em tela o maior número digitado
+### 3. Localizador de Maior Valor (Questão 03)
+Lê 10 números, armazena em um array e identifica qual foi o maior valor digitado.
+* **Conceitos:** Arrays (`double[]`), Laços de Repetição.
 
+### 4. Sistema de Gestão Escolar (Questão 04)
+Um sistema simples para cadastrar até 5 alunos e suas notas em uma matriz, permitindo listar os dados e calcular a média da turma.
+* **Conceitos:** Matrizes (`string[,]`), Manipulação de Dados, Conversão de Tipos.
 
-QUESTÃO 04 - Crie um programa que leia 5 alunos (nome) e 5 notas e armazene em uma matriz.
-O programa deve permitir:
+---
 
-1 - Cadastrar aluno
-2 - Listar alunos
-3 - Mostrar média das notas
-4 - Sair
+## 💻 Como executar os projetos
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
