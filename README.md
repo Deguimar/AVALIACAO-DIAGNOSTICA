@@ -29,10 +29,4 @@ Lê 10 números, armazena em um array e identifica qual foi o maior valor digita
 Um sistema simples para cadastrar até 5 alunos e suas notas em uma matriz, permitindo listar os dados e calcular a média da turma.
 * **Conceitos:** Matrizes (`string[,]`), Manipulação de Dados, Conversão de Tipos.
 
----
 
-## 💻 Como executar os projetos
-
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
